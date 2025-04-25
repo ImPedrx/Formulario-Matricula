@@ -41,13 +41,21 @@
 }
 
 .container-main {
-    padding: 64px;
 }
 
 #app {
     display: grid;
     grid-template-columns: 51.25%   48.75%;
+    height: 100vh;
+    overflow: hidden;
 }
+
+main {
+    overflow: auto;
+    padding: 4rem;
+}
+
+
 
 
 .scroll {
@@ -56,7 +64,6 @@
 
 .fixed  {
     background-color: var(--surface-secondary);
-    width: 624px;
-    height: 848px;
+    padding: 4rem;
     
 }
