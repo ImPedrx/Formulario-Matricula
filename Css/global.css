@@ -2,7 +2,8 @@
 
 
 
-
+* {margin: 0;
+    padding: 0;}
 :root {
 
     /* brand */
@@ -30,9 +31,32 @@
     --blue:#B8CEDC;
     --violet:#C3B2E7;
     --pink:#F682A5;
+
+    /* Typography */
     --font-family:"Roboto Condensed", sans-serif;
     --heading1: 700 32px/120% var(--font-family);
     --heading2: 700 24px/120% var(--font-family);
     --heading3: 700 20px/120% var(--font-family);
     --heading4: 700 16px/120% var(--font-family);
+}
+
+.container-main {
+    padding: 64px;
+}
+
+#app {
+    display: grid;
+    grid-template-columns: 51.25%   48.75%;
+}
+
+
+.scroll {
+    width: 660px;
+}
+
+.fixed  {
+    background-color: var(--surface-secondary);
+    width: 624px;
+    height: 848px;
+    
 }
